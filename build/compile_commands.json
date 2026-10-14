@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/vigilo/Projects/personal/Hrpc/build",
+  "command": "/usr/bin/c++  -I/home/vigilo/Projects/personal/Hrpc/src/include -std=gnu++14 -o CMakeFiles/main.dir/main.cpp.o -c /home/vigilo/Projects/personal/Hrpc/main.cpp",
+  "file": "/home/vigilo/Projects/personal/Hrpc/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.o"
+}
+]

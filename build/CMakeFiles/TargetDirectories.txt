@@ -1,0 +1,3 @@
+/home/vigilo/Projects/personal/Hrpc/build/CMakeFiles/main.dir
+/home/vigilo/Projects/personal/Hrpc/build/CMakeFiles/edit_cache.dir
+/home/vigilo/Projects/personal/Hrpc/build/CMakeFiles/rebuild_cache.dir
