@@ -6,7 +6,6 @@
 #include <string>
 #include <vector>
 #include <unordered_map>
-#include <unordered_set>
 #include <shared_mutex>
 
 class service_discovery {
