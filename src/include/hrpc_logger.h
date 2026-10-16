@@ -11,23 +11,19 @@ public:
         FLAGS_colorlogtostderr = true;
         FLAGS_logtostderr = true;
     }
-
     ~hrpc_logger() {
         google::ShutdownGoogleLogging();
     }
-
+    
     static void info(const std::string& message) {
         LOG(INFO) << message;
     }
-
     static void warning(const std::string& message) {
         LOG(WARNING) << message;
     }
-
     static void error(const std::string& message) {
         LOG(ERROR) << message;
     }
-
     static void fatal(const std::string& message) {
         LOG(FATAL) << message;
     }

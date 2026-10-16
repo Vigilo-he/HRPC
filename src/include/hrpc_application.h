@@ -8,6 +8,7 @@ public:
     static void init(int argc, char** argv);
     static hrpc_application& get_instance();
     static hrpc_config& get_config();
+    
 private:
     static hrpc_config m_config;
     hrpc_application();
