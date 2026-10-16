@@ -80,7 +80,7 @@ int hrpc_connect_pool::borrow_connection(const std::string &ip, uint16_t port) {
         std::lock_guard<std::mutex> lock(m_global_mtx);
         auto it = m_pools.find(key);
         if (it == m_pools.end()) {
-            bucket = new(connection_bucket(MAX_CONN_SIZE));
+            bucket = new connection_bucket(MAX_CONN_SIZE);
         } else {
             bucket = it->second;
         }
